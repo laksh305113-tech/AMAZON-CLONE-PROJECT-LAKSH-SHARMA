@@ -33,12 +33,6 @@ export default function Navbar({ page, setPage, cartCount, searchTerm, setSearch
           >
             Products
           </button>
-          <button
-            className={`nav-btn ${page === "register" ? "active" : ""}`}
-            onClick={() => setPage("register")}
-          >
-            Register
-          </button>
           <button className="nav-cart-btn" onClick={() => setPage("cart")}>
             🛒
             {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}

@@ -2,7 +2,6 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
-import Register from "./pages/Register";
 import Products from "./pages/Products";
 import "./App.css";
 
@@ -57,7 +56,6 @@ export default function App() {
           setPage={setPage}
         />
       )}
-      {page === "register" && <Register setPage={setPage} />}
     </div>
   );
 }

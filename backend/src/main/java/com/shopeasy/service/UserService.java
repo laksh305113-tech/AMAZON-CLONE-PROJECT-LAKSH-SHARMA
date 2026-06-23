@@ -14,18 +14,6 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    // Register new user
-    public String registerUser(User user) {
-
-        // Check if email already exists
-        if (userRepository.existsByEmail(user.getEmail())) {
-            return "Email already registered!";
-        }
-
-        userRepository.save(user);
-        return "User registered successfully!";
-    }
-
     // Get all users
     public List<User> getAllUsers() {
         return userRepository.findAll();

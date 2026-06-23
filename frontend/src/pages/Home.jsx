@@ -20,9 +20,6 @@ export default function Home({ setPage, addToCart }) {
             <button className="btn-gold" onClick={() => setPage("products")}>
               Shop Now →
             </button>
-            <button className="btn-outline" onClick={() => setPage("register")}>
-              Create Account
-            </button>
           </div>
         </div>
         <div className="hero-visual">

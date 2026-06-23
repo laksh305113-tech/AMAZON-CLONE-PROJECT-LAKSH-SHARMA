@@ -16,12 +16,6 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    // POST /api/users/register   → Register a new user
-    @PostMapping("/register")
-    public String registerUser(@RequestBody User user) {
-        return userService.registerUser(user);
-    }
-
     // GET  /api/users            → Get all users
     @GetMapping
     public List<User> getAllUsers() {
