@@ -80,7 +80,7 @@ export default function Register({ setPage }) {
               <input
                 type="text"
                 name="name"
-                placeholder="Sarthak Gupta"
+                placeholder="Laksh Sharma"
                 value={form.name}
                 onChange={handleChange}
               />
@@ -92,7 +92,7 @@ export default function Register({ setPage }) {
               <input
                 type="email"
                 name="email"
-                placeholder="sarthak@example.com"
+                placeholder="laksh@example.com"
                 value={form.email}
                 onChange={handleChange}
               />
@@ -106,7 +106,7 @@ export default function Register({ setPage }) {
               <input
                 type="tel"
                 name="phone"
-                placeholder="9876543210"
+                placeholder="9999999999"
                 value={form.phone}
                 onChange={handleChange}
               />

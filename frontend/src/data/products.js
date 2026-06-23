@@ -82,8 +82,8 @@ export const PRODUCTS = [
   },
   {
     id: 10,
-    name: "Give Me Peaceful — Book by Sarthak Gupta",
-    description: "A journey through mindfulness and inner peace. Bestselling debut by Sarthak Gupta.",
+    name: "Give Me Peaceful — Book by Laksh Sharma",
+    description: "A journey through mindfulness and inner peace. Bestselling debut by Laksh Sharma.",
     price: 299,
     category: "Books",
     rating: 4.9,
